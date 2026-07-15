@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Максим Фомичев — Telegram-боты и AI-автоматизация</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <meta name="description" content="Создаю Telegram-боты и AI-автоматизация для бизнеса. Парсинг, интеграции, AI-ассистенты.">
+    <meta name="keywords" content="Telegram боты, AI автоматизация, вайб-кодинг, Python, парсинг">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Максим Фомичев — Telegram-боты и AI-автоматизация">
+    <meta property="og:description" content="Создаю Telegram-боты и AI-автоматизация для бизнеса. Парсинг, интеграции, AI-ассистенты.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://maxfomichev.netlify.app">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Hero -->
+    <header class="hero">
+        <div class="container">
+            <div class="hero__content">
+                <h1 class="hero__title">Максим Фомичев</h1>
+                <p class="hero__subtitle">Создаю Telegram-боты и автоматизацию<br>для бизнеса с помощью AI-инструментов</p>
+                <a href="https://t.me/migdalohr" class="btn btn--primary" target="_blank" rel="noopener">Написать в Telegram</a>
+                <a href="#services" class="hero__scroll">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 5v14M19 12l-7 7-7-7"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Чем занимаюсь -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="section-title">Чем занимаюсь</h2>
+            <div class="services__grid">
+                <a href="#projects" class="service-card">
+                    <div class="service-card__icon">🤖</div>
+                    <h3 class="service-card__title">Telegram-боты</h3>
+                    <p class="service-card__text">Боты для продаж, консультаций, записи на услуги</p>
+                </a>
+                <a href="#projects" class="service-card">
+                    <div class="service-card__icon">📊</div>
+                    <h3 class="service-card__title">Парсинг данных</h3>
+                    <p class="service-card__text">Сбор и анализ информации с сайтов и в чатах</p>
+                </a>
+                <a href="#projects" class="service-card">
+                    <div class="service-card__icon">🧠</div>
+                    <h3 class="service-card__title">AI-интеграции</h3>
+                    <p class="service-card__text">Подключаю AI для ответов, генерации контента, анализа</p>
+                </a>
+                <a href="#projects" class="service-card">
+                    <div class="service-card__icon">⚙️</div>
+                    <h3 class="service-card__title">Автоматизация</h3>
+                    <p class="service-card__text">Связываю сервисы в рабочие процессы без ручной работы</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Проекты -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="section-title">Мои проекты</h2>
+            <div class="projects__grid">
+
+                <!-- 1. Бот-консультант с CRM -->
+                <div class="project-card">
+                    <div class="project-card__preview">
+                        <img src="assets/images/crm-bot.png" alt="Бот-консультант с CRM" loading="lazy">
+                    </div>
+                    <h3 class="project-card__title">Бот-консультант с CRM</h3>
+                    <p class="project-card__text">AI-консультант для бизнеса с базой клиентов. Отвечает на вопросы, записывает на услуги, хранит историю обращений.</p>
+                    <div class="project-card__tags">
+                        <span class="tag">aiogram</span>
+                        <span class="tag">Groq</span>
+                        <span class="tag">Google Sheets</span>
+                    </div>
+                </div>
+
+                <!-- 2. AI-ассистент ответов на отзывы -->
+                <div class="project-card">
+                    <div class="project-card__preview">
+                        <img src="assets/images/ai-assistent.png" alt="AI-ассистент ответов на отзывы" loading="lazy">
+                    </div>
+                    <h3 class="project-card__title">AI-ассистент ответов на отзывы</h3>
+                    <p class="project-card__text">Бот, который анализирует отзывы клиентов и генерирует персонализированные ответы.</p>
+                    <div class="project-card__tags">
+                        <span class="tag">AI</span>
+                        <span class="tag">автоматизация</span>
+                    </div>
+                </div>
+
+                <!-- 3. Бот генерирующий посты с визуалами -->
+                <div class="project-card">
+                    <div class="project-card__preview">
+                        <img src="assets/images/auto-post.png" alt="Бот для постов с визуалами" loading="lazy">
+                    </div>
+                    <h3 class="project-card__title">Бот для постов с визуалами</h3>
+                    <p class="project-card__text">Генерирует посты для соцсетей: текст + картинки. SMM-автоматизация.</p>
+                    <div class="project-card__tags">
+                        <span class="tag">Mistral</span>
+                        <span class="tag">генерация</span>
+                    </div>
+                </div>
+
+                <!-- 4. Продающий бот -->
+                <div class="project-card">
+                    <div class="project-card__preview">
+                        <img src="assets/images/sales-bot.png" alt="Продающий бот" loading="lazy">
+                    </div>
+                    <h3 class="project-card__title">Продающий бот</h3>
+                    <p class="project-card__text">Воронка продаж в Telegram. Ведёт клиента от знакомства до покупки.</p>
+                    <div class="project-card__tags">
+                        <span class="tag">воронка</span>
+                        <span class="tag">продажи</span>
+                    </div>
+                </div>
+
+                <!-- 5. Бот для парсинга и суммаризации Telegram -->
+                <div class="project-card">
+                    <div class="project-card__preview">
+                        <img src="assets/images/telegram-parser.png" alt="Парсер и суммаризатор Telegram" loading="lazy">
+                    </div>
+                    <h3 class="project-card__title">Парсер и суммаризатор Telegram</h3>
+                    <p class="project-card__text">Собирает сообщения из каналов и чатов, делает AI-выжимки и анализ.</p>
+                    <div class="project-card__tags">
+                        <span class="tag">Telethon</span>
+                        <span class="tag">AI</span>
+                        <span class="tag">SQLite</span>
+                    </div>
+                </div>
+
+                <!-- 6. Бот-нутрициолог -->
+                <div class="project-card">
+                    <div class="project-card__preview">
+                        <img src="assets/images/nutritionist.png" alt="Бот-нутрициолог" loading="lazy">
+                    </div>
+                    <h3 class="project-card__title">Бот-нутрициолог</h3>
+                    <p class="project-card__text">AI-консультации по питанию. Составляет план питания на основе запросов.</p>
+                    <div class="project-card__tags">
+                        <span class="tag">AI</span>
+                        <span class="tag">нутрициология</span>
+                    </div>
+                </div>
+
+                <!-- 7. Бот генерирующий email-цепочки -->
+                <div class="project-card">
+                    <div class="project-card__preview">
+                        <img src="assets/images/email-chain.png" alt="Генератор email-цепочек" loading="lazy">
+                    </div>
+                    <h3 class="project-card__title">Генератор email-цепочек</h3>
+                    <p class="project-card__text">Автоматически создаёт серию писем для рассылок по заданным темам.</p>
+                    <div class="project-card__tags">
+                        <span class="tag">AI</span>
+                        <span class="tag">email</span>
+                    </div>
+                </div>
+
+                <!-- 8. Бот-переводчик -->
+                <div class="project-card">
+                    <div class="project-card__preview">
+                        <img src="assets/images/translator.png" alt="Бот-переводчик" loading="lazy">
+                    </div>
+                    <h3 class="project-card__title">Бот-переводчик</h3>
+                    <p class="project-card__text">Ассистент для пополнения словарного запаса. Переводит тексты на разные языки.</p>
+                    <div class="project-card__tags">
+                        <span class="tag">n8n</span>
+                        <span class="tag">AI</span>
+                        <span class="tag">перевод</span>
+                    </div>
+                </div>
+
+                <!-- 9. Парсер Авито -->
+                <div class="project-card">
+                    <div class="project-card__preview">
+                        <img src="assets/images/avito-parser.png" alt="Парсер Авито" loading="lazy">
+                    </div>
+                    <h3 class="project-card__title">Парсер Авито</h3>
+                    <p class="project-card__text">Собирает объявления с Авито для анализа цен и мониторинга рынка.</p>
+                    <div class="project-card__tags">
+                        <span class="tag">Selenium</span>
+                        <span class="tag">парсинг</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Мой подход -->
+    <section class="approach">
+        <div class="container">
+            <h2 class="section-title">Мой подход</h2>
+            <div class="approach__content">
+                <p class="approach__text">
+                    Я вайб-кодер — создаю решения через AI-ассистентов.<br>
+                    Чётко ставлю задачу и управляю процессом через:
+                </p>
+                <div class="approach__tools">
+                    <span class="tool">OpenCode</span>
+                    <span class="tool">Cursor</span>
+                    <span class="tool">Replit</span>
+                    <span class="tool">Google Colab</span>
+                </div>
+                <p class="approach__result">Ваша идея — готовое решение. Без лишних затрат и ожиданий.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Технологии -->
+    <section class="tech">
+        <div class="container">
+            <h2 class="section-title">Технологии в моих проектах</h2>
+            <div class="tech__content">
+                <div class="tech__group">
+                    <h3 class="tech__group-title">Основные</h3>
+                    <div class="tech__list">
+                        <span class="tech-item">Python</span>
+                        <span class="tech-item">Telegram API</span>
+                        <span class="tech-item">n8n</span>
+                    </div>
+                </div>
+                <div class="tech__group">
+                    <h3 class="tech__group-title">Сервисы</h3>
+                    <div class="tech__list">
+                        <span class="tech-item">Google Sheets</span>
+                        <span class="tech-item">Google Calendar</span>
+                        <span class="tech-item">Яндекс 360</span>
+                        <span class="tech-item">Render</span>
+                        <span class="tech-item">Supabase</span>
+                    </div>
+                </div>
+                <div class="tech__group">
+                    <h3 class="tech__group-title">AI-модели</h3>
+                    <div class="tech__list">
+                        <span class="tech-item">Mistral</span>
+                        <span class="tech-item">Groq</span>
+                        <span class="tech-item">Gemini</span>
+                        <span class="tech-item">GigaChat</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Контакты -->
+    <footer class="contacts">
+        <div class="container">
+            <h2 class="section-title">Контакты</h2>
+            <div class="contacts__list">
+                <a href="mailto:migdalohr5778@gmail.com" class="contact-item">
+                    <span class="contact-item__icon">📧</span>
+                    <span class="contact-item__text">migdalohr5778@gmail.com</span>
+                </a>
+                <a href="https://t.me/migdalohr" class="contact-item" target="_blank" rel="noopener">
+                    <span class="contact-item__icon">✈️</span>
+                    <span class="contact-item__text">@migdalohr</span>
+                </a>
+                <a href="https://github.com/maxfomichev-tech" class="contact-item" target="_blank" rel="noopener">
+                    <span class="contact-item__icon">💻</span>
+                    <span class="contact-item__text">github.com/maxfomichev-tech</span>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Модальное окно для скриншотов -->
+    <div class="modal" id="modal">
+        <button class="modal__close" id="modal-close">&times;</button>
+        <img class="modal__img" id="modal-img" src="" alt="">
+    </div>
+
+    <!-- Кнопка "наверх" -->
+    <a href="#" class="back-to-top" id="back-to-top">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 19V5M5 12l7-7 7 7"/>
+        </svg>
+    </a>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

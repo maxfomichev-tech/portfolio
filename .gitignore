@@ -1,0 +1,6 @@
+Automation and ChatBots/
+.opencode/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
