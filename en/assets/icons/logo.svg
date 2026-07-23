@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7c6cff"/>
+      <stop offset="100%" style="stop-color:#3b82f6"/>
+    </linearGradient>
+  </defs>
+  <rect width="60" height="60" rx="14" fill="url(#bg)"/>
+  <!-- Antenna -->
+  <line x1="30" y1="8" x2="30" y2="14" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="30" cy="7" r="2.5" fill="#22c55e"/>
+  <!-- Head -->
+  <rect x="16" y="14" width="28" height="22" rx="6" fill="#fff"/>
+  <!-- Eyes -->
+  <circle cx="24" cy="23" r="3" fill="#1a1d24"/>
+  <circle cx="36" cy="23" r="3" fill="#1a1d24"/>
+  <circle cx="25" cy="22" r="1" fill="#fff"/>
+  <circle cx="37" cy="22" r="1" fill="#fff"/>
+  <!-- Smile -->
+  <path d="M24 30 Q30 35 36 30" stroke="#1a1d24" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <!-- Body -->
+  <rect x="22" y="38" width="16" height="12" rx="4" fill="#fff"/>
+  <circle cx="30" cy="44" r="2" fill="#7c6cff"/>
+</svg>
